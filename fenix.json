@@ -1,0 +1,30 @@
+{
+    "$schema": "https://raw.githubusercontent.com/FenixTemplates/FenixTemplates/master/fenix-schema.json",
+    "author": "ACharLuk",
+    "repoName": "Fenix Default Templates",
+    "repoUrl": "https://raw.githubusercontent.com/FenixTemplates/Default/master/",
+    "version": 1.0,
+    "templates": [
+        {
+            "id": "fenix-new-template",
+            "displayName": "Fenix Template",
+            "description": "Template used to create new Fenix templates",
+            "language": "Other",
+            "category": [
+                "Fenix"
+            ],
+            "img": "https://raw.githubusercontent.com/acharluk/Fenix/master/src/assets/logo.png",
+            "files": {
+                "download": [
+                    {
+                        "from": "blank-template.json",
+                        "to": "fenix.json"
+                    }
+                ],
+                "open": [
+                    "fenix.json"
+                ]
+            }
+        }
+    ]
+}
