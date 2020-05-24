@@ -24,7 +24,15 @@
                 "open": [
                     "fenix.json"
                 ]
-            }
+            },
+            "environment": [
+                {
+                    "id": "author",
+                    "title": "Author",
+                    "description": "Enter your name here",
+                    "default": "Me"
+                }
+            ]
         }
     ]
 }
