@@ -33,6 +33,37 @@
                     "default": "Me"
                 }
             ]
+        },
+        {
+            "id": "fenix-example-template",
+            "displayName": "Example Template",
+            "description": "Example template to test Fenix",
+            "language": "Other",
+            "category": [
+                "Fenix",
+                "Testing"
+            ],
+            "img": "https://raw.githubusercontent.com/acharluk/Fenix/master/src/assets/logo.png",
+            "files": {
+                "download": [
+                    {
+                        "from": "test.md",
+                        "to": "test.md"
+                    }
+                ],
+                "open": [
+                    "test.md"
+                ]
+            },
+            "environment": [
+                {
+                    "id": "author",
+                    "title": "Author",
+                    "description": "Enter your name here",
+                    "default": "Test author"
+                }
+            ],
+            "command": "echo Hola mundo!"
         }
     ]
 }
